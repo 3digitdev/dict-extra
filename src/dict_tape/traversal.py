@@ -1,4 +1,4 @@
-from src.dict_extra.exceptions import ArgTypeError, DataTypeError, ResultTypeError
+from src.dict_tape.exceptions import ArgTypeError, DataTypeError, ResultTypeError
 
 
 def chain_get[T](

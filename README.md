@@ -1,4 +1,4 @@
-# dict-extra
+# dict-tape
 
 _A collection of Python utilities for manipulating dictionaries_
 
@@ -7,13 +7,13 @@ _A collection of Python utilities for manipulating dictionaries_
 ## Installation
 
 ```bash
-pip install dict-extra
+pip install dict-tape
 ```
 
 ## Usage
 
 ```python
-from dict_extra import chain_get
+from dict_tape import chain_get
 ```
 
 ## Features
@@ -35,7 +35,7 @@ intermixed in there, you can't sanely default things and have to just hope the l
 But with `chain_get()` you can accomplish this in a way that will sanely default:
 
 ```python
-from dict_extra import chain_get
+from dict_tape import chain_get
 
 some_dict = {'a': [{'b': {'e': 'value'}}]}
 # Prints 'value'

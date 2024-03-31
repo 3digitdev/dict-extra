@@ -1,13 +1,13 @@
 [project]
-name = "dict-extra"
-description = "A collection of extra utilities for working with Dictionaries in Python."
+name = "dict-tape"
+description = "A collection of utilities for working with Dictionaries in Python."
 requires-python = ">=3.12"
 dynamic = ["version"]
 authors = [
-    {email = "dict-extra@3digit.dev"}
+    {email = "dict-tape@3digit.dev"}
 ]
 maintainers = [
-    {email = "dict-extra@3digit.dev"}
+    {email = "dict-tape@3digit.dev"}
 ]
 readme = "README.md"
 classifiers = [
@@ -19,8 +19,8 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Homepage = "https://github.com/3digitdev/dict-extra"
-Issues = "https://github.com/3digitdev/dict-extra/issues"
+Homepage = "https://github.com/3digitdev/dict-tape"
+Issues = "https://github.com/3digitdev/dict-tape/issues"
 
 [project.optional-dependencies]
 dev = [
@@ -46,7 +46,7 @@ skip-magic-trailing-comma = true
 "__init__.py" = ["E402", "F401", "F403"]
 
 [tool.hatch.version]
-path = "src/dict_extra/__init__.py"
+path = "src/dict_tape/__init__.py"
 
 [tool.hatch.build.targets.sdist]
 excluse = [
@@ -58,7 +58,7 @@ excluse = [
 ]
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/dict_extra"]
+packages = ["src/dict_tape"]
 
 [tool.pytest.ini_options]
 pythonpath = ["src"]
