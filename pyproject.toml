@@ -49,7 +49,7 @@ skip-magic-trailing-comma = true
 path = "src/dict_tape/__init__.py"
 
 [tool.hatch.build.targets.sdist]
-excluse = [
+exclude = [
     "/.DS_STORE",
     "/.gitignore",
     "/.pre-commit-config.yaml",
