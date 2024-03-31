@@ -36,7 +36,7 @@ def chain_get[T](
                 raise ArgTypeError(
                     f"Invalid key type '{arg_type.__name__}' at args[{i}] (must be int for list or str)"
                 )
-            elif (data_type == dict) and arg_type != str:
+            elif (data_type == dict) and arg_type not in [str, int]:
                 raise ArgTypeError(f"Invalid key type '{arg_type.__name__}' at args[{i}] (must be str for dict)")
             try:
                 data = data[arg]

@@ -45,7 +45,8 @@ def test_chain_get_no_args(nested_list_and_str):
 
 def test_chain_get_bad_arg_type(nested_list_and_str):
     with pytest.raises(TypeError):
-        chain_get(nested_list_and_str, 'level_1', 0, 'level_2', 'level_3')
+        chain_get(nested_list_and_str, 'level_1', 'level_2', 'bad', 'level_3')
+
 
 def test_chain_get_bad_data_type(nested_list_and_int):
     with pytest.raises(TypeError):
