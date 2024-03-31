@@ -1,6 +1,6 @@
 import pytest
 
-from src.dict_tape import chain_get
+from dict_tape import chain_get
 
 
 @pytest.fixture
