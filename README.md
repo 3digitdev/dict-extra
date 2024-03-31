@@ -1,2 +1,2 @@
-# json-extra
-A collection of Python utilities for manipulating JSON data
+# dict-extra
+A collection of Python utilities for manipulating dictionaries
